@@ -1,0 +1,88 @@
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(215, 208, 220);
+    background-color: rgb(43, 27, 58);
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+button{
+    border-radius: 5px;
+    height: 2rem;
+}
+
+.list-buttons{
+    display: flex;
+    flex-direction:row;
+}
+
+.text{
+    font-size: 18px;
+}
+
+
+.to-do-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    width: 50vw;
+}
+
+.input-list{
+    display: flex;
+    padding: 0rem;
+    justify-content: center;
+    height: 40px;
+}
+
+input{
+    width: 80%;
+    border-radius: 5px;
+}
+
+.add-button{
+    height: 40px;
+    width: 15%;
+    color: #ffe;
+    background-color: #435b33;
+    text-decoration: solid;
+    font-weight: bold;
+}
+
+.add-button:hover{
+    background-color: #6c974f;
+}
+
+.delete-button{
+    background-color: rgb(117, 47, 47);
+    color: #ffe;
+}
+.delete-button:hover{
+    background-color: rgb(137, 69, 69);
+    margin-left: 10px;
+}
+
+.move-button{
+    background-color: #fffeed;
+    width:50px;
+    margin-left: 10px;
+}
+
+.ordered-list{
+    justify-content: center;
+}
+
+
+li{
+    padding: 0.5rem;
+}
