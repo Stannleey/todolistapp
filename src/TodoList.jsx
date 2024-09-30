@@ -79,9 +79,9 @@ function TodoList() {
         {
           taskList.map((text, index) => (<><li key={index}
           style={{cursor: 'pointer', display: 'flex', alignItems: 'center'}}>{text}</li>
-          <button onClick={() => handleMoveUp(index)}>Move Up</button>
-          <button onClick={() => handleMoveDown(index)}>Move Down</button>
-          <button onClick={() => handleRemoveTask(index)}>Remove</button></>))
+          <button onClick={() => handleMoveUp(index)}>⬆️</button>
+          <button onClick={() => handleMoveDown(index)}>⬇️</button>
+          <button onClick={() => handleRemoveTask(index)}>🚮</button></>))
         }
       </ul>
        </div>
